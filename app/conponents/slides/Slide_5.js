@@ -6,9 +6,9 @@ function Slide_5() {
     return (
         <>
             <div className="bg-[#f3f3f1] flex justify-center overflow-hidden">
-                <div className="py-30">
-                    <h1 className="text-5xl text-center text-[#1e2330] font-extrabold">The only link in bio trusted by 70M+</h1>
-                    <h1 className="text-5xl text-center text-blue-600  font-extrabold mb-10">fitness coaches</h1>
+                <div className="w-full py-20 sm:py-30">
+                    <h1 className="px-4 text-3xl sm:text-5xl text-center text-[#1e2330] font-extrabold">The only link in bio trusted by 70M+</h1>
+                    <h1 className="px-4 text-3xl sm:text-5xl text-center text-blue-600 font-extrabold mb-10">fitness coaches</h1>
                     <div className="h-100 w-screen overflow-hidden relative *:cursor-pointer ">
                         <div id="img_1" className="h-100 w-80 rounded-2xl overflow-hidden absolute left-full"><img className="h-full object-cover" src="/img_1.webp" alt="img_1" /></div>
                         <div id="img_2" className="h-100 w-120 rounded-4xl overflow-hidden absolute left-full"><img className="h-full w-120 object-cover" src="/img_2.webp" alt="img_2" /></div>
@@ -21,44 +21,44 @@ function Slide_5() {
                     </div>
 
 
-                    <div className="flex mt-50 justify-center gap-5 min-h-screen w-[90vw] mx-auto box-border">
-                        <div className="flex flex-col gap-5 *:rounded-4xl">
-                            <div className="flex flex-col gap-10 bg-[#e9c0e9] min-h-[45vh] h-full w-[45vw] pt-12 px-11">
-                                <img className=" py-4" src="/sec_1.png" />
-                                <p className="text-3xl font-bold py-4 text-neutral-800">Share your content in limitless ways on your Linktree.</p>
+                    <div className="flex flex-col lg:flex-row mt-20 sm:mt-50 justify-center gap-5 min-h-screen w-[calc(100%-2rem)] sm:w-[90vw] max-w-[1440px] mx-auto box-border">
+                        <div className="flex flex-col gap-5 w-full lg:w-1/2 *:rounded-4xl">
+                            <div className="flex flex-col gap-6 sm:gap-10 bg-[#e9c0e9] min-h-[45vh] h-full w-full pt-8 sm:pt-12 px-5 sm:px-11">
+                                <img className="py-4" src="/sec_1.png" alt="Content sharing preview" />
+                                <p className="text-2xl sm:text-3xl font-bold py-4 text-neutral-800">Share your content in limitless ways on your Linktree.</p>
                             </div>
-                            <div className="flex flex-col gap-10 bg-[#d2e823] min-h-[50vh] h-full w-[45vw] py-12 px-11">
-                                <img className="px-12 py-2" src="/products-1.avif" />
-                                <p className="text-3xl font-bold py-4 text-neutral-800">Sell products and collect payments. It's monetization made simple.</p>
+                            <div className="flex flex-col gap-6 sm:gap-10 bg-[#d2e823] min-h-[50vh] h-full w-full py-8 sm:py-12 px-5 sm:px-11">
+                                <img className="sm:px-12 py-2" src="/products-1.avif" alt="Products preview" />
+                                <p className="text-2xl sm:text-3xl font-bold py-4 text-neutral-800">Sell products and collect payments. It's monetization made simple.</p>
                             </div>
                         </div>
-                        <div className="bg-[#061492] min-h-full w-[45vw] rounded-4xl py-8 px-8 flex flex-col justify-between items-center">
-                            <img className='' width={550} src="/sec_3.png" />
-                            <p className="text-3xl font-bold py-4 w-full text-white">Grow, own and engage your audience by unifying them in one place.</p>
+                        <div className="bg-[#061492] min-h-[70vh] lg:min-h-full w-full lg:w-1/2 rounded-4xl py-8 px-5 sm:px-8 flex flex-col justify-between items-center">
+                            <img className="w-full max-w-[550px]" src="/sec_3.png" alt="Audience preview" />
+                            <p className="text-2xl sm:text-3xl font-bold py-4 w-full text-white">Grow, own and engage your audience by unifying them in one place.</p>
                         </div>
                     </div>
 
 
                     <div className="flex flex-col items-center justify-center my-30 gap-10">
-                        <p className="text-6xl font-extrabold max-w-200 mx-auto text-center text-[#1e2330]">The fast, friendly and powerful link in bio tool.</p>
-                        <button className="bg-[#e9c0e9] hover:bg-[#c68ac6] font-bold text-neutral-950 p-5 px-18 rounded-full cursor-pointer">Explore all plans</button>
+                        <p className="text-4xl sm:text-6xl font-extrabold max-w-200 mx-auto px-4 text-center text-[#1e2330]">The fast, friendly and powerful link in bio tool.</p>
+                        <button className="bg-[#e9c0e9] hover:bg-[#c68ac6] font-bold text-neutral-950 p-5 px-10 sm:px-18 rounded-full cursor-pointer">Explore all plans</button>
                     </div>
 
                     <div className="flex flex-col items-center justify-center my-30 mt-60">
-                        <p className="text-7xl font-[900] text-[#1e2330]">As featured in...</p>
-                        <div className="flex flex-wrap justify-center gap-5 w-[65vw] mt-10 ">
-                            <img className="px-18 py-7 bg-white rounded-4xl " src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66956c24b06a30e2abd303c1_Logo-TechCrunch-Large2.avif.svg" />
-                            <img className="px-18 py-7 bg-white rounded-4xl " src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66956c240c7252f99a711862_Logo-Insider-Large.avif.svg" />
-                            <img className="px-18 py-7 bg-white rounded-4xl " src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66956c243edb28a09bb80185_Logo-Mashable-Large.avif.svg" />
-                            <img className="px-18 py-7 bg-white rounded-4xl " src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66956c24fcbadb976185fa13_Logo-Fortune-Large.avif.svg" />
-                            <img className="px-18 py-7 bg-white rounded-4xl " src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66956c247ae4d73b70397940_Logo-Forbes-Large.avif.svg" />
+                        <p className="text-4xl sm:text-7xl font-[900] text-[#1e2330] text-center">As featured in...</p>
+                        <div className="flex flex-wrap justify-center gap-3 sm:gap-5 w-[calc(100%-2rem)] sm:w-[65vw] max-w-[1000px] mt-10 ">
+                            <img className="w-[calc(50%-0.375rem)] sm:w-auto px-5 sm:px-18 py-7 bg-white rounded-4xl " src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66956c24b06a30e2abd303c1_Logo-TechCrunch-Large2.avif.svg" alt="TechCrunch" />
+                            <img className="w-[calc(50%-0.375rem)] sm:w-auto px-5 sm:px-18 py-7 bg-white rounded-4xl " src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66956c240c7252f99a711862_Logo-Insider-Large.avif.svg" alt="Insider" />
+                            <img className="w-[calc(50%-0.375rem)] sm:w-auto px-5 sm:px-18 py-7 bg-white rounded-4xl " src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66956c243edb28a09bb80185_Logo-Mashable-Large.avif.svg" alt="Mashable" />
+                            <img className="w-[calc(50%-0.375rem)] sm:w-auto px-5 sm:px-18 py-7 bg-white rounded-4xl " src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66956c24fcbadb976185fa13_Logo-Fortune-Large.avif.svg" alt="Fortune" />
+                            <img className="w-[calc(50%-0.375rem)] sm:w-auto px-5 sm:px-18 py-7 bg-white rounded-4xl " src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66956c247ae4d73b70397940_Logo-Forbes-Large.avif.svg" alt="Forbes" />
                         </div>
                     </div>
 
 
-                    <div className="max-w-[70vw] mx-auto">
-                        <img className="mx-auto" width={820} src="66864533566fcb42ef955aad_Testimonial-Riley-Lemon.webp" />
-                        <p className="text-5xl text-[#1e2330] font-[900] text-center">“Linktree simplifies the process for creators to share multiple parts of themselves in one inclusive link.”</p>
+                    <div className="w-[calc(100%-2rem)] sm:max-w-[70vw] mx-auto">
+                        <img className="mx-auto w-full max-w-[820px]" src="66864533566fcb42ef955aad_Testimonial-Riley-Lemon.webp" alt="Riley Lemon" />
+                        <p className="text-3xl sm:text-5xl text-[#1e2330] font-[900] text-center">“Linktree simplifies the process for creators to share multiple parts of themselves in one inclusive link.”</p>
                         <div>
                             <p className="w-fit mx-auto text-center text-2xl text-neutral-600 my-10">Riley Lemon, <br /> Youtuber, content creator </p>
                             <div className="flex gap-5 justify-center">

@@ -9,8 +9,8 @@ function page() {
 
     return (
         <>
-            <div className='flex '>
-                <div className='w-1/2 px-10 py-10 h-screen overflow-y-auto relative'>
+            <div className='flex'>
+                <div className='w-full md:w-1/2 px-4 sm:px-10 py-6 sm:py-10 min-h-screen md:h-screen overflow-y-auto relative'>
                     <div>
                         <Link href="/" className='fixed'>
                             <svg className='block w-40 px-2 my-2' viewBox="0 0 80 17" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -20,7 +20,7 @@ function page() {
                             </svg>
                         </Link>
                     </div>
-                    <div className='flex flex-col items-center mx-auto mt-20 mb-10 max-w-120'>
+                    <div className='flex flex-col items-center mx-auto mt-10 sm:mt-20 mb-10 max-w-120'>
                         <h1 className='text-4xl font-bold mt-10'>Welcome back</h1>
                         <p className='text-gray-500 my-2'>Log in to your Linktree</p>
                         <div className=' flex flex-col w-full mt-10 gap-2'>
@@ -63,7 +63,7 @@ function page() {
                         </div>
                     </div>
                 </div>
-                <div className='w-1/2 h-screen overflow-hidden'>
+                <div className='hidden md:block w-1/2 h-screen overflow-hidden'>
                     <img className='w-full object-cover mt-[-50%]' src="https://assets.production.linktr.ee/auth/3448/media/banner-login-desktop.f355be949b508c58ec2d.webp" alt="Login banner" />
                 </div>
 

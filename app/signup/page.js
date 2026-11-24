@@ -16,8 +16,8 @@ function page() {
     if (mounted) {
         return (
             <>
-                <div className='flex '>
-                    <div className='w-1/2 px-10 py-10 h-screen overflow-y-hidden'>
+                <div className='flex'>
+                    <div className='w-full md:w-1/2 px-4 sm:px-10 py-6 sm:py-10 min-h-screen md:h-screen overflow-y-auto'>
                         <div>
                             <Link href="/" >
                                 <svg className='block w-34 p-2' viewBox="0 0 80 17" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -60,7 +60,7 @@ function page() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-1/2 h-screen overflow-hidden'>
+                    <div className='hidden md:block w-1/2 h-screen overflow-hidden'>
                         <img className='w-full object-cover select-none mt-[-50%]' src="https://assets.production.linktr.ee/auth/3448/media/banner-register-social-desktop.18fa56fce6ad2db4f48b.webp" alt="Login banner" />
                     </div>
                 </div>
