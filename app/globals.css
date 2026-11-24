@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+* {
+    font-family: Linksans Linksansvf, sans-serif;
+}
+
+img {
+    user-select: none;
+    user-drag: none;
+}
